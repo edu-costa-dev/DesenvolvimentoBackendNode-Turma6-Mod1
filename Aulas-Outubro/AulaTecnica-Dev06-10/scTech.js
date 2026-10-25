@@ -22,6 +22,10 @@ function gerarCodigoRastreio(prefixo="SCT"){
     }
 }
 
+function impressaoCentral (imprime){
+    return imprime();
+}
+
 function Encomenda(codigo, cliente, cidade, distancia){
     this.codigo = codigo;
     this.cliente = cliente;
@@ -50,4 +54,6 @@ const cidade = prompt(`Digite o nome da cidade: `);
 const distancia = lerDistanciaValida();
 
 const encomenda1 = new Encomenda(codigo,cliente,cidade,distancia);
-encomenda1.gerarComprovante();
+const funcaoImprimirEncomenda = encomenda1.gerarComprovante.bind(encomenda1)
+impressaoCentral(funcaoImprimirEncomenda);
+
