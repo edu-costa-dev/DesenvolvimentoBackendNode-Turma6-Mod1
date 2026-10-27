@@ -1,9 +1,29 @@
 {
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "typescript": "^7.0.2"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
     "@types/prompt-sync": "^4.2.3"
-  }
+  },
+  "name": "desenvolvimentobackendnode-turma6-mod1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edu-costa-dev/DesenvolvimentoBackendNode-Turma6-Mod1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edu-costa-dev/DesenvolvimentoBackendNode-Turma6-Mod1/issues"
+  },
+  "homepage": "https://github.com/edu-costa-dev/DesenvolvimentoBackendNode-Turma6-Mod1#readme",
+  "type": "module"
 }
